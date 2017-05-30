@@ -17,7 +17,7 @@ public class UserTest1 {
 		session.beginTransaction();
 
 		User user = new User();
-		user.setName("管理员");
+		user.setName("管理员3");
 		user.setPassword("admin");
 		user.setCreateTime(new Date());
 		user.setExpireTime(new Date());
